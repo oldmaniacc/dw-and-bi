@@ -1,8 +1,10 @@
 # Data Warehouse and Business Intelligence
 # Project: Building a Data Modeling with Postgres (SQL)
-
+#
+#
 # มีโค้ดที่ทำ ETL จากข้อมูล JSON โหลดเข้าไปใน Postgres
 ## มีโค้ด
+#
 #
 # มีการเขียน Documentation อธิบายสิ่งที่ตัวเองทำลงไป รวมไปถึงการออกแบบ Data Model
 ## 1.Running Postgres ด้วยคำสั่ง docker-compose up กับไฟล์ docker-compose.yml (ตรวจเช็คด้วยการเข้า port 8080)
@@ -14,6 +16,7 @@
 ## 7.ในไฟล์สคริปต์ etl.py ทำการเพิ่มข้อมูลให้กับตาราง repos ด้วยคำสั่ง insert into repos และกำหนด value ให้ตรงกับคอลัม
 ## 8.แก้ path ที่เก็บไฟล์ json ให้ถูกต้อง ในสคริปต์ etl.py 
 ## 9.เช็ค port 8080 ว่ามีข้อมูลโหลดเข้ามาในตารางหรือไม่
+#
 #
 # มี Instruction ในการรันโค้ดของตัวเอง
 ## 1. docker-compose up with docker-compose.yml 
